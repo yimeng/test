@@ -1,3 +1,7 @@
 branch4
 branch4.1
 branch4.2
+<<<<<<< HEAD
+=======
+branch4.3
+>>>>>>> branch4
