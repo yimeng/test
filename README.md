@@ -1,20 +1,20 @@
-# Git Branch Practice Repository
+# Git 分支练习仓库
 
-This repository is a minimal sandbox for exploring Git branching and merge workflows. It contains only a handful of text documents that capture branch histories, merge experiments, and conflict examples.
+这个仓库是一个用于练习 Git 分支与合并流程的极简示例，主要包含少量文本文件，用于记录各个分支的历史、合并实验以及冲突示例。
 
-## Repository Layout
-- `README.md`: Overview of the repository and learning pointers for contributors.
-- `branch1` – `branch4`: Notes that document what happened on each example branch. The file `branch4` intentionally retains merge-conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) so you can study and resolve conflicts by hand.
-- `master`: Records the steps performed on the main branch during the exercises.
-- `Untitled Diagram.drawio`: A Draw.io diagram reserved for illustrating branch relationships or workflows.
+## 仓库结构
+- `README.md`：仓库概览以及供贡献者参考的学习指引。
+- `branch1` – `branch4`：记录每个示例分支上的操作。`branch4` 文件特意保留了合并冲突标记（`<<<<<<<`、`=======`、`>>>>>>>`），方便你练习手动解决冲突。
+- `master`：记录在主分支上执行的练习步骤。
+- `Untitled Diagram.drawio`：预留给使用 Draw.io 绘制分支关系或工作流的图示。
 
-## Getting Started
-1. Clone the repository and inspect the history with `git log --graph --oneline --all` to visualize how the sample branches diverge and merge.
-2. Read through the `branch*` and `master` files to understand the scenarios being demonstrated and note where conflicts arose.
-3. Recreate the `branch4` merge locally, practice resolving the conflict markers, and compare your results with the recorded notes.
-4. Expand this README or add new exercises as you refine your understanding of Git operations.
+## 入门指南
+1. 克隆仓库，并通过 `git log --graph --oneline --all` 可视化示例分支如何分叉和合并。
+2. 阅读 `branch*` 与 `master` 文件，理解各个场景以及冲突出现的位置。
+3. 在本地重现 `branch4` 的合并，练习清理冲突标记，并与记录中的说明进行对照。
+4. 随着你对 Git 操作的理解不断加深，可扩展本 README 或添加新的练习内容。
 
-## Next Steps for Learners
-- Supplement the notes with a more detailed narrative or screenshots of Git commands to build a comprehensive tutorial.
-- Add small sample projects or unit tests to make the repository resemble a real-world workflow and practice merging code changes instead of plain text.
-- Document common Git tips, such as using `git status`, `git diff`, or interactive rebase, directly in the README or dedicated guides.
+## 进一步学习建议
+- 补充更详细的说明或 Git 命令截图，将其整理为完整教程。
+- 添加小型示例项目或单元测试，让仓库更接近真实开发流程，并练习合并代码变更而非纯文本。
+- 在 README 或独立文档中总结常见 Git 技巧，例如 `git status`、`git diff` 或交互式变基等。
